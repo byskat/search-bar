@@ -1,0 +1,38 @@
+{
+  "endOfLine": "lf",
+  "printWidth": 120,
+  "useTabs": false,
+  "singleQuote": false,
+  "semi": true,
+  "tabWidth": 2,
+  "quoteProps": "consistent",
+  "overrides": [
+    {
+      "files": [
+        "package.json",
+        "*.lock"
+      ],
+      "options": {
+        "parser": "json",
+        "requirePragma": true
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "tabWidth": 4,
+        "useTabs": false
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "tabWidth": 4,
+        "useTabs": false
+      }
+    }
+  ],
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}
